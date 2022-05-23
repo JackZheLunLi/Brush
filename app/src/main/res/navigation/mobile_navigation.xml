@@ -12,14 +12,24 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.jack.brushing.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_parentmodel"
+        android:name="com.jack.brushing.ui.parent.ParentFragment"
+        android:label="@string/menu_parentmodel"
+        tools:layout="@layout/fragment_parent" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.jack.brushing.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_set"
+        android:name="com.jack.brushing.ui.set.SetFragment"
+        android:label="@string/menu_set"
+        tools:layout="@layout/fragment_set" />
+    <fragment
+        android:id="@+id/nav_support"
+        android:name="com.jack.brushing.ui.set.SetFragment"
+        android:label="@string/menu_support"
+        tools:layout="@layout/fragment_support" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.jack.brushing.ui.set.SetFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
 </navigation>

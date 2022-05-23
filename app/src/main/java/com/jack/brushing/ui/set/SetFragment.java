@@ -1,4 +1,4 @@
-package com.jack.brushing.ui.slideshow;
+package com.jack.brushing.ui.set;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,21 +10,21 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.jack.brushing.databinding.FragmentSlideshowBinding;
+import com.jack.brushing.databinding.FragmentSetBinding;
 
-public class SlideshowFragment extends Fragment {
+public class SetFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+    private FragmentSetBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SlideshowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+        SetViewModel slideshowViewModel =
+                new ViewModelProvider(this).get(SetViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
+        binding = FragmentSetBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
+        final TextView textView = binding.textSet;
         slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }

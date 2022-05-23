@@ -1,4 +1,4 @@
-package com.jack.brushing.ui.gallery;
+package com.jack.brushing.ui.parent;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,21 +10,21 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.jack.brushing.databinding.FragmentGalleryBinding;
+import com.jack.brushing.databinding.FragmentParentBinding;
 
-public class GalleryFragment extends Fragment {
+public class ParentFragment extends Fragment {
 
-    private FragmentGalleryBinding binding;
+    private FragmentParentBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        ParentViewModel galleryViewModel =
+                new ViewModelProvider(this).get(ParentViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentParentBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
+        final TextView textView = binding.textParent;
         galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
