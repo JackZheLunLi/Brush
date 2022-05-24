@@ -24,12 +24,12 @@
         tools:layout="@layout/fragment_set" />
     <fragment
         android:id="@+id/nav_support"
-        android:name="com.jack.brushing.ui.set.SetFragment"
+        android:name="com.jack.brushing.ui.support.SupportFragment"
         android:label="@string/menu_support"
         tools:layout="@layout/fragment_support" />
     <fragment
         android:id="@+id/nav_about"
-        android:name="com.jack.brushing.ui.set.SetFragment"
+        android:name="com.jack.brushing.ui.about.AboutFragment"
         android:label="@string/menu_about"
         tools:layout="@layout/fragment_about" />
 </navigation>
