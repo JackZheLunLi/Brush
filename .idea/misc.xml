@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.354" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable/ic_launcher_background.xml" value="0.354" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1955" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable/ic_menu_contact_support.xml" value="0.354" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1955" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable/ic_menu_home.xml" value="0.354" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable/ic_menu_settings.xml" value="0.354" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1955" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable/ic_menu_supervised_user_circle.xml" value="0.354" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/drawable/side_nav_bar.xml" value="0.1955" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/layout/content_main.xml" value="0.39672686230248305" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/layout/fragment_about.xml" value="0.3515625" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Brushing/app/src/main/res/layout/fragment_gallery.xml" value="0.3651041666666667" />
