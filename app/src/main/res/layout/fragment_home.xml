@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4DB6AC"
+    android:background="#DAA2A0"
     tools:context=".ui.home.HomeFragment">
-
 
 
     <TextView
@@ -40,7 +39,7 @@
         android:id="@+id/btnReport"
         android:layout_width="112dp"
         android:layout_height="53dp"
-        android:backgroundTint="#A19978"
+        android:backgroundTint="#F1EFE9"
         android:text="@string/report"
         android:textColor="#111B5C"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,48 +51,47 @@
 
     <Button
         android:id="@+id/btnParent"
-        android:layout_width="135dp"
-        android:layout_height="54dp"
+        android:layout_width="136dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/btn_parent_design"
         android:drawableStart="@drawable/ic_menu_supervised_user_circle"
         android:text="@string/menu_parentmodel"
         android:textColor="#111B5C"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.071" />
+        app:layout_constraintStart_toStartOf="@+id/btnDelete"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnDelete"
-        android:layout_width="235dp"
-        android:layout_height="56dp"
+        android:layout_width="238dp"
+        android:layout_height="48dp"
         android:layout_marginStart="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/btn_delete_design"
 
-        android:drawableLeft="@drawable/delete"
+        android:drawableStart="@drawable/delete"
         android:text="@string/delete"
-        android:textColor="#111B5C"
+        android:textColor="#B2EBF2"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <Button
         android:id="@+id/btnEdit"
-        android:layout_width="235dp"
-        android:layout_height="56dp"
+        android:layout_width="233dp"
+        android:layout_height="48dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/btn_edit_design"
-        android:drawableLeft="@drawable/edit"
+        android:drawableStart="@drawable/edit"
         android:gravity="center"
         android:text="@string/delete"
-        android:textColor="#111B5C"
+        android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
