@@ -16,4 +16,5 @@
     <string name="edit">編輯個人檔案</string>
     <string name="report">刷牙紀錄</string>
     <string name="todo">TODO</string>
+    <string name="add_award">新增獎勵</string>
 </resources>
